@@ -7,8 +7,8 @@ function Dropdown({ dropDown }) {
         <div className="  ">
           <img className="size-12 rounded-full" src="a-logo.jpg" alt="logo" />
         </div>
-        <div className="flex items-center  w-12" onClick={dropDown}>
-          <img src="hamburger-menu.png" />
+        <div className="flex items-center  " onClick={dropDown}>
+          <img className="w-12" src="menu.svg" />
         </div>
       </div>
       <ul className=" flex flex-col   w-full  justify-center items-stretch  gap-[5vh]">

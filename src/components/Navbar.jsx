@@ -8,8 +8,8 @@ function Navbar() {
         <div className="  ">
           <img className="size-12 rounded-full" src="a-logo.jpg" alt="logo" />
         </div>
-        <div className="flex items-center md:hidden w-12" onClick={dropDown}>
-          <img src="hamburger-menu.png" />
+        <div className="flex items-center md:hidden  " onClick={dropDown}>
+          <img className="w-12" src="menu.svg" />
         </div>
         <ul className=" hidden md:flex items-center gap-10 ">
           <li>About </li>
