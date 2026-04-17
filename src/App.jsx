@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+
 
 function App() {
   return (
-    <div className="h-screen w-full text-white bg-zinc-900 ">
-      {/* <div className="px-[20vw]"> */}
+    <div className="h-screen w-full text-white bg-zinc-900  ">
 
       <Navbar></Navbar>
-      {/* </div> */}
+      {/* wrapper */}
+      <div className="px-[16vw]">
+      <Hero></Hero>
+      </div>
     </div>
   );
 }
