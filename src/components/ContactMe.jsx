@@ -1,5 +1,6 @@
 import React from "react";
 import { Btn } from "./index";
+import emailIcon from '../assets/icons/email.png'
 
 function ContactMe() {
   return (
@@ -15,7 +16,7 @@ function ContactMe() {
           I’ll try my best to get back to you!
         </p>
 
-        <Btn text="Contact Me" path="" url='mailto:ak.dev@gamil.com' />
+        <Btn text="Contact Me" iconPath={emailIcon} url='mailto:ak.dev@gamil.com' />
       </div>
     </section>
   );

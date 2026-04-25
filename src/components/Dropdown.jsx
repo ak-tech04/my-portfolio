@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useId } from "react";
 import { navLinks } from "../data/navigation";
 
 function Dropdown({ dropDown }) {
@@ -13,18 +13,22 @@ function Dropdown({ dropDown }) {
         </div>
       </div>
       <ul className=" flex flex-col   w-full  justify-center items-stretch  gap-[5vh]">
-        {navLinks.map((item) => (
-          <li className=" block w-full px-4  text-center  ">
-            <a
-              className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
-              href={item.href}
-              onClick={dropDown}
-              
-            >
-              {item.label}
-            </a>
-          </li>
-        ))}
+        {navLinks.map((item) => {
+          const id = useId();
+          const id2 =useId();
+          return (
+            <li key={id} className=" block w-full px-4  text-center  ">
+              <a
+                key={id2}
+                className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
+                href={item.href}
+                onClick={dropDown}
+              >
+                {item.label}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

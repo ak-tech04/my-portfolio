@@ -1,17 +1,24 @@
+import reactIcon from "../assets/icons/react.png";
+import vueIcon from "../assets/icons/vue.png";
+import githubIcon from "../assets/icons/github.png";
+import linkedInIcon from "../assets/icons/linkedin.png";
+import journalIcon from "../assets/icons/journal.png";
+import liveIcon from "../assets/icons/live.png";
+
 export const projectList = [
   {
-    projectTitle: "Some Appsss",
+    projectTitle: "Some App1",
     projectDescription:
       "Now I’ll replace it with a reusable button supporting optional image path.",
     projectImagePath: "projects/some.png",
     techStackUsed: [
-      { icon: "path", name: "react" },
-      { icon: "path", name: "vue" },
+      { icon: reactIcon, name: "react" },
+      { icon: vueIcon, name: "vue" },
     ],
     buttons: {
-      liveUrl: { icon: "path", text: "Live Demo" },
-      sourceCode: { icon: "path", text: "View Source Code" },
-      journey: { icon: "path", text: "Journal" },
+      liveUrl: { icon: liveIcon, text: "Live Demo" },
+      sourceCode: { icon: githubIcon, text: "View Source Code" },
+      journey: { icon: journalIcon, text: "Journal" },
     },
   },
   {
@@ -20,13 +27,13 @@ export const projectList = [
       "Now I’ll replace it with a reusable button supporting optional image path.",
     projectImagePath: "projects/some.png",
     techStackUsed: [
-      { icon: "path", name: "react" },
-      { icon: "path", name: "vue" },
+      { icon: reactIcon, name: "react" },
+      { icon: vueIcon, name: "vue" },
     ],
     buttons: {
-      liveUrl: { icon: "path", text: "Live Demo" },
-      sourceCode: { icon: "path", text: "View Source Code" },
-      journey: { icon: "path", text: "Journal" },
+      liveUrl: { icon: liveIcon, text: "Live Demo" },
+      sourceCode: { icon: githubIcon, text: "View Source Code" },
+      journey: { icon: journalIcon, text: "Journal" },
     },
   },
 ];
