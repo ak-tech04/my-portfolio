@@ -1,18 +1,140 @@
-# React + Vite
+# Aditya Kumar Patel - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This is a modern, responsive single-page application showcasing my projects, skills, and experience as a Full-Stack Developer.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Visit Portfolio](https://your-portfolio-url.com)
 
-## React Compiler
+## 📋 About Me
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+I'm a **Full-Stack Developer** passionate about building scalable, user-friendly web applications. I specialize in modern frontend frameworks and cloud-native backend services to deliver high-performance, data-driven solutions.
 
-Note: This will impact Vite dev & build performances.
+**Key Focus Areas:**
+- Building responsive and intuitive user interfaces
+- End-to-end application development
+- Cloud-native architecture with Appwrite and Supabase
+- Performance optimization and best practices
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- **React** — Component-based UI library
+- **Tailwind CSS** — Utility-first CSS framework
+- **Vite** — Next-generation build tool
+- **React Router** — Client-side routing
+
+### Backend & Services
+- **Appwrite** — Backend-as-a-Service (BaaS)
+- **Supabase** — PostgreSQL database & authentication
+- **Node.js** — JavaScript runtime
+
+### Tools & Others
+- **Git & GitHub** — Version control
+- **ESLint** — Code quality
+- **React Compiler** — Performance optimization
+
+## 💼 Skills & Proficiencies
+
+### Frontend Development
+✅ React & JSX  
+✅ Tailwind CSS & Responsive Design  
+✅ State Management (useState, Context API)  
+✅ Component Architecture  
+✅ HTML5 & CSS3  
+
+### Backend Development
+✅ REST APIs  
+✅ Database Design (SQL/PostgreSQL)  
+✅ Authentication & Authorization  
+✅ Cloud Services (Appwrite, Supabase)  
+
+### General
+✅ Problem-solving & Debugging  
+✅ Git & GitHub Workflow  
+✅ Responsive Web Design  
+✅ Web Performance Optimization  
+
+## 📂 Project Structure
+
+```
+src/
+├── components/          # Reusable React components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── AboutMe.jsx
+│   ├── Projects.jsx
+│   ├── ContactMe.jsx
+│   ├── Footer.jsx
+│   ├── Btn.jsx
+│   └── Tags.jsx
+├── pages/               # Page components
+│   └── Home.jsx
+├── data/                # Static data
+│   ├── projectList.js
+│   └── navigation.js
+├── assets/              # Images & icons
+│   └── icons/
+├── App.jsx
+├── index.css            # Global styles with Tailwind
+└── main.jsx
+```
+
+## 🚀 Features
+
+- ✨ **Fully Responsive** — Works seamlessly on mobile, tablet, and desktop
+- 🎨 **Modern UI/UX** — Clean, intuitive design with smooth animations
+- ⚡ **Fast Performance** — Optimized with Vite and React Compiler
+- 🔗 **Smooth Navigation** — Anchor links with smooth scrolling
+- 📱 **Mobile Menu** — Responsive hamburger navigation
+- 🎯 **Project Showcase** — Expandable project descriptions with tech stack display
+
+## 🎨 Design Highlights
+
+- Custom SVG animations (bracket expansion & dot wobble)
+- Tailwind CSS for consistent styling
+- Dark theme (Zinc-900 background with blue accents)
+- Accessible component structure
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/my-portfolio.git
+
+# Navigate to project directory
+cd my-portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## 🔧 Available Scripts
+
+```bash
+npm run dev      # Start Vite dev server
+npm run build    # Build for production
+npm run preview  # Preview production build
+npm run lint     # Run ESLint
+```
+
+## 📧 Contact
+
+- **Email:** [ak.dev@gmail.com](mailto:ak.dev@gmail.com)
+- **GitHub:** [github.com/aditya-kumar](https://github.com/ak-tech04)
+<!-- - **LinkedIn:** [linkedin.com/in/aditya-kumar]() -->
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+**Last Updated:** April 2026  
+Built with ❤️ by Aditya Kumar Patel
