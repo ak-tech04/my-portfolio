@@ -1,9 +1,10 @@
 import React from "react";
+import { navLinks } from "../data/navigation";
 
 function Dropdown({ dropDown }) {
   return (
     <div className=" drop-down   fixed bg-zinc-900  inset-0 hidden  w-full  h-screen   ">
-      <div className="w-full h-[10vh] flex  justify-between items-center px-[16vw] mb-20 ">
+      <div className="w-full h-[10vh] flex  justify-between items-center px-[4vw] mb-20 ">
         <div className="  ">
           <img className="size-12 rounded-full" src="a-logo.jpg" alt="logo" />
         </div>
@@ -12,30 +13,18 @@ function Dropdown({ dropDown }) {
         </div>
       </div>
       <ul className=" flex flex-col   w-full  justify-center items-stretch  gap-[5vh]">
-        <li className=" block w-full px-4  text-center  ">
-          <a
-            className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
-            href="#"
-          >
-            About
-          </a>
-        </li>
-        <li className=" block w-full px-4  text-center  ">
-          <a
-            className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
-            href="#"
-          >
-            Projects
-          </a>
-        </li>
-        <li className=" block w-full px-4  text-center  ">
-          <a
-            className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
-            href="#"
-          >
-            Contacts
-          </a>
-        </li>
+        {navLinks.map((item) => (
+          <li className=" block w-full px-4  text-center  ">
+            <a
+              className=" block w-full py-3   rounded-2xl  hover:bg-slate-500"
+              href={item.href}
+              onClick={dropDown}
+              
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
       </ul>
     </div>
   );
